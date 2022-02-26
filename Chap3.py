@@ -1,6 +1,6 @@
 import cv2
 # Crop and resize Images
-img = cv2.imread("Coys/burger.jpg")
+img = cv2.imread("Coys/burger.jpg") # Gets pic from directory
 #cv2.imshow("Image", img)
 print(img.shape)
 imgResize = cv2.resize(img,(500,300)) # Width, Height in cv2 functions
